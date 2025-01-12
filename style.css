@@ -172,9 +172,9 @@ nav {
 }
 
 .hero_title_light {
- font-size: 24px;   
- color: #0E0E0E;
- opacity: 50%;
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
 }
 
 
@@ -230,6 +230,7 @@ nav {
     font-style: normal;
     font-size: 20px;
 }
+
 .capsule_description {
     font-size: 16px;
 }
@@ -266,9 +267,11 @@ nav {
 .vc2 {
     background-color: #c6e4d6;
 }
+
 .lm1 {
     background-color: #5490F5;
 }
+
 .lm2 {
     background-color: #09A15C;
 }
@@ -276,6 +279,7 @@ nav {
 .vc3 {
     background-color: #f7ebcf;
 }
+
 .lm3 {
     background-color: #FFC239;
 }
@@ -302,13 +306,86 @@ nav {
     background-image: url('assets/quote-bg.png');
     background-repeat: no-repeat;
     background-color: white;
+    background-position: 20px 10px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .author_name {
     font-size: 20px;
+    margin-top: 10px;
+    opacity: 80%;
+    color: #0E0E0E;
 }
+
 .author_title {
     font-size: 16px;
+    color: #0E0E0E;
+    opacity: 60%;
+    margin-bottom: 25px;
+}
+
+.opinion_box {
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+
+.opinion-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.thead_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thead_text {
+    font-size: 20px;
+}
+
+.opinion-table th {
+    background-color: #C6E4D6;
+    height: 60px;
+    padding: 0 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-table td {
+    background-color: white;
+    height: 60px;
+    padding: 0 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.questions {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.selector_txt {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;   
+}
+
+.opinion_selects {
+    background-color: #C6E4D6;
+    border: 1px solid #0E0E0E;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
 }
