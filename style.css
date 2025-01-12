@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    background-color: #f5f5f5;
+}
+
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10vw;
+}
+
+.nav_title {
+    font-size: 32px;
+    color: #0E0E0E;
+}
+
+.sign_in_text {
+    font-size: 18px;
+    color: #006A50;
+    text-align: center;
+}
+
+.sign_in_btn {
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    padding: 10px;
+    width: 70px;
+}
+
+.global_width_1 {
+    margin: 15px 10vw 0 10vw;
+}
+
+.global_width {
+    margin: 40px 10vw 0 10vw;
+}
+
+.hero_all {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    min-height: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 80px;
+}
+
+.hero_img {
+    height: 320px;
+    margin-right: 20px;
+}
+
+.hero_left {
+    height: 326px;
+    margin: 50px 0;
+}
+
+.hero_title_light {
+ font-size: 24px;   
+ color: #0E0E0E;
+ opacity: 50%;
+}
+
+
+.hero_big_text {
+    font-size: 56px;
+    margin: 10px 0 30px 0;
+}
+
+.explore_text {
+    font-size: 18px;
+    color: white;
+}
+
+.explore_btn {
+    border-radius: 8px;
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.global_heading {
+    margin-bottom: 18px;
+    font-size: 40px;
+}
+
+
+.capsules_holder {
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.capsules {
+    width: 23%;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.capsule_heading {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.capsule_description {
+    font-size: 16px;
+}
+
+.capsule_img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+.vision_capsule_holder {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+
+}
+
+.vision_capsule {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+
+
+.vc1 {
+    background-color: #bbd1f5;
+}
+
+.vc2 {
+    background-color: #c6e4d6;
+}
+.lm1 {
+    background-color: #5490F5;
+}
+.lm2 {
+    background-color: #09A15C;
+}
+
+.vc3 {
+    background-color: #f7ebcf;
+}
+.lm3 {
+    background-color: #FFC239;
+}
+
+.lm {
+    margin: 30px 0 0px 0;
+    width: 90px;
+    padding: 10px 8px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+}
+
+.vch1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.quote {
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.author_name {
+    font-size: 20px;
+}
+.author_title {
+    font-size: 16px;
+}
